@@ -54,10 +54,6 @@
     height: 750px;
 }
 
-.main_slide video {
-    /* border-radius: 15% */
-}
-
 .main_slide .itm strong {
     position: absolute;
     top: 220px;
@@ -149,13 +145,17 @@
 
 
 .mainQuick {
+    position: absolute;
+    bottom: -120px;
+    left: 270px;
     width: 1400px;
     margin: 0 auto;
     padding: 0 0 50px 0;
 }
 
 .mainQuick .tit {
-    margin: 0 0 20px 0;
+    font-size: 30px;
+    margin: 30px 0 20px 0;
 }
 
 .mainQuick .tit ul {
@@ -173,9 +173,16 @@
 .quick_list ul li {
     position: relative;
     flex: 1 1 33.333333333%;
+    padding: 20px 10px;
+    background: #fff;
+    border: 1px solid #888;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 15%);
 }
 
-
+.quick_list ul li:hover {
+    background: #f8f8f8;
+}
 
 .quick_list ul li a {
     display: flex;
@@ -184,14 +191,13 @@
 
 .quick_list ul li a .last {
     position: absolute;
-    right: 0;
+    right: 20px;
     color: #f9661e;
 }
 
 .quick_list ul li a .last path {
     fill: currentColor;
 }
-
 
 .quick_list ul li .txt {
     margin: 0 0 0 20px;
@@ -202,4 +208,8 @@
     font-size: 30px;
     font-weight: 700;
     margin: 0 0 10px 0;
+}
+
+.quick_list ul li .txt p {
+    font-size: 15px;
 }
