@@ -148,19 +148,19 @@
     padding: 0 0 50px 0;
 }
 
-.quick_list {
+.mainQuick .quick_list {
     position: absolute;
     bottom: 10px;
-    left: 300px;
+    left: 400px;
 }
 
-.quick_list ul {
+.mainQuick .quick_list ul {
     display: flex;
     gap: 30px;
 
 }
 
-.quick_list ul li {
+.mainQuick .quick_list ul li {
     position: relative;
     flex: 1 1 33.333333333%;
 
@@ -170,39 +170,39 @@
     box-shadow: 5px 5px 10px rgb(0 0 0 / 15%);
 }
 
-.quick_list ul li:hover {
+.mainQuick .quick_list ul li:hover {
     background: #f8f8f8;
 }
 
-.quick_list ul li a {
+.mainQuick .quick_list ul li a {
     display: flex;
     padding: 20px 40px 20px 30px;
     align-items: center;
 }
 
-.quick_list ul li a .last {
+.mainQuick .quick_list ul li a .last {
     position: absolute;
     display: inline-block;
     right: 15px;
     color: #f9661e;
 }
 
-.quick_list ul li a .last path {
+.mainQuick .quick_list ul li a .last path {
     fill: currentColor;
 }
 
-.quick_list ul li .txt {
+.mainQuick .quick_list ul li .txt {
     margin: 0 0 0 20px;
 }
 
-.quick_list ul li .txt strong {
+.mainQuick .quick_list ul li .txt strong {
     display: inline-block;
     font-size: 30px;
     font-weight: 700;
     margin: 0 0 10px 0;
 }
 
-.quick_list ul li .txt p {
+.mainQuick .quick_list ul li .txt p {
     font-size: 15px;
 }
 
@@ -419,7 +419,7 @@
 }
 
 .mainInfo .info_gide figure:hover .over {
-    top: 180px;
+    top: 220px;
     cursor: pointer;
 }
 
