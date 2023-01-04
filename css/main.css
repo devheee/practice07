@@ -45,13 +45,11 @@
 
 
 
-.main_slide {
-    padding: 10px 0 50px 0;
-}
+
 
 .main_slide .itm {
     position: relative;
-    height: 750px;
+    height: 700px;
 }
 
 .main_slide .itm strong {
@@ -109,17 +107,17 @@
 
 .mainVisual .main_slide .slick-prev {
     transform: translate(-50%, -50%) rotate(-45deg);
-    margin: 0 0 0 -800px;
+    margin: 0 0 0 -700px;
 }
 
 .mainVisual .main_slide .slick-next {
     transform: translate(-50%, -50%) rotate(135deg);
-    margin: 0 0 0 800px;
+    margin: 0 0 0 700px;
 }
 
 .main_slide .slick-dots {
     position: absolute;
-    bottom: 100px;
+    bottom: 120px;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1;
@@ -145,12 +143,15 @@
 
 
 .mainQuick {
-    position: absolute;
-    bottom: -40px;
-    left: 250px;
     width: 1400px;
     margin: 0 auto;
     padding: 0 0 50px 0;
+}
+
+.quick_list {
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
 }
 
 .quick_list ul {
@@ -162,7 +163,7 @@
 .quick_list ul li {
     position: relative;
     flex: 1 1 33.333333333%;
-    padding: 20px 30px;
+
     background: #fff;
     border: 1px solid #888;
     border-radius: 10px;
@@ -175,11 +176,13 @@
 
 .quick_list ul li a {
     display: flex;
+    padding: 20px 40px 20px 30px;
     align-items: center;
 }
 
 .quick_list ul li a .last {
     position: absolute;
+    display: inline-block;
     right: 15px;
     color: #f9661e;
 }
@@ -219,7 +222,7 @@
 .mainEvent .inner {
     width: 1400px;
     margin: 0 auto;
-    padding: 100px 0 50px 0;
+    padding: 100px 0;
 
     display: flex;
     gap: 20px;
@@ -276,6 +279,61 @@
     text-align: center;
 }
 
+.mainAnimal {
+    position: relative;
+}
+
+.mainAnimal .inner {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.mainAnimal .inner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.mainAnimal .inner h2 span {
+    color: #282b91;
+    text-transform: uppercase;
+}
+
+
+.mainAnimal .animal_slide img {
+    height: 500px;
+    margin: 0 20px;
+}
+
+.mainAnimal .ani_arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mainAnimal .ani_arrow i:first-child {
+    position: absolute;
+    left: -415px;
+    background: #1c1f6b;
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+
+.mainAnimal .ani_arrow i:last-child {
+    position: absolute;
+    right: -415px;
+    background: #1c1f6b;
+    border-radius: 50%;
+    color: #fff;
+}
 
 .mainInfo .inner {
     width: 1400px;
@@ -292,4 +350,90 @@
 
 .mainInfo .inner h2 span {
     color: #282b91;
+    text-transform: uppercase;
+}
+
+.mainInfo .info_gide {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.mainInfo .info_gide img {
+    width: 400px;
+    height: 500px;
+}
+
+
+.mainInfo .info_gide .case {
+    position: relative;
+    overflow: hidden;
+}
+
+.mainInfo .info_gide .case .txt {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+
+    padding: 20px 20px;
+    transition: 0.5s;
+}
+
+.mainInfo .info_gide .case p {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.mainInfo .info_gide .case span {
+    font-size: 15px;
+    font-weight: 300;
+    color: #666;
+}
+
+.mainInfo .info_gide figure:hover .txt {
+    top: 500px;
+    cursor: pointer;
+}
+
+.mainInfo .info_gide figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.mainInfo .info_gide figure .over {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 26px 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    transition: 0.5s;
+}
+
+.mainInfo .info_gide figure:hover .over {
+    top: 180px;
+    cursor: pointer;
+}
+
+.mainInfo .info_gide .over p {
+    font-size: 16px;
+    display: block;
+    padding: 10px 0 25px;
+    line-height: 28px;
+    word-break: keep-all;
+}
+
+.mainInfo .info_gide .over a {
+    font-size: 15px;
+    background: #1c1f6b;
+    color: #fff;
+    padding: 10px;
 }
