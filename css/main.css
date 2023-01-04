@@ -150,7 +150,7 @@
 
 .mainQuick .quick_list {
     position: absolute;
-    bottom: 90px;
+    bottom: 80px;
     left: 400px;
 }
 
@@ -323,7 +323,6 @@
     background: #1c1f6b;
     border-radius: 50%;
     color: #fff;
-
 }
 
 
@@ -428,7 +427,6 @@
     display: block;
     padding: 10px 0 25px;
     line-height: 28px;
-    word-break: keep-all;
 }
 
 .mainInfo .info_gide .over a {
@@ -436,4 +434,79 @@
     background: #1c1f6b;
     color: #fff;
     padding: 10px;
+}
+
+
+.mainReview {
+    position: relative;
+    width: 1270px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.mainReview .inner {
+    display: flex;
+    gap: 100px;
+}
+
+.mainReview .inner .left h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    line-height: 40px;
+}
+
+.mainReview .inner .left i {
+    font-size: 13px;
+}
+
+.mainReview .review_slide {
+    width: 900px;
+}
+
+.mainReview .review_slide .itm {
+    height: 100px;
+    padding: 20px 30px;
+    background: #f5f5f5;
+    border-radius: 30px;
+    margin: 0 10px;
+
+}
+
+.mainReview .review_slide .itm span {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 10px 0;
+}
+
+.mainReview .review_slide .itm p {
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+
+.mainReview .review_arrow {
+    position: absolute;
+    top: 30%;
+    right: 35%;
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mainReview .review_arrow i:first-child {
+    position: absolute;
+    left: -530px;
+}
+
+
+.mainReview .review_arrow i:last-child {
+    position: absolute;
+    left: 410px;
+}
+
+.footer {
+    background: #1c1f6b;
+    color: #999;
+    padding: 50px 0;
 }
