@@ -209,7 +209,8 @@
 .dec {
     font-size: 20px;
     font-weight: 700;
-    padding: 10px;
+    padding: 0 0 50px 0;
+    ;
     line-height: 30px;
 }
 
@@ -238,6 +239,9 @@
     background: rgba(249, 102, 3, 0.8);
 }
 
+.mainEvent {
+    background: #f9f9f9;
+}
 
 .mainEvent .inner {
     width: 1400px;
@@ -354,10 +358,14 @@
     color: #fff;
 }
 
+.mainInfo {
+    background: #f9f9f9;
+}
+
 .mainInfo .inner {
     width: 1400px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 0 80px 0;
 }
 
 .mainInfo .inner h2 {
