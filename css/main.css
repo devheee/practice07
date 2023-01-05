@@ -107,12 +107,12 @@
 
 .mainVisual .main_slide .slick-prev {
     transform: translate(-50%, -50%) rotate(-45deg);
-    margin: 0 0 0 -700px;
+    margin: 0 0 0 -800px;
 }
 
 .mainVisual .main_slide .slick-next {
     transform: translate(-50%, -50%) rotate(135deg);
-    margin: 0 0 0 700px;
+    margin: 0 0 0 800px;
 }
 
 .main_slide .slick-dots {
