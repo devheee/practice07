@@ -529,13 +529,13 @@
 
 .mainReview .review_arrow i:first-child {
     position: absolute;
-    left: -560px;
+    left: -650px;
 }
 
 
 .mainReview .review_arrow i:last-child {
     position: absolute;
-    right: -500px;
+    right: -380px;
 }
 
 .footer {
